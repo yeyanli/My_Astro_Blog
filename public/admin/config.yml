@@ -1,9 +1,9 @@
 backend:
   name: github
   branch: main # change this to your branch
-  repo: example/cactus # 1、change this to your repo
-  site_domain: example.com # 2、change this to your domain
-  base_url: https://example.com # 3、change this to your prod URL
+  repo: yeyanli/My_Astro_Blog # 1、change this to your repo 修改成自己的仓库名（用户名/仓库名）
+  site_domain: my-astro-blog-beta.vercel.app # 2、change this to your domain 修改成网页端的域名
+  base_url: https://my-astro-blog-beta.vercel.app # 3、change this to your prod URL
   auth_endpoint: oauth # the oauth route provided by the integration
 
 collections:
